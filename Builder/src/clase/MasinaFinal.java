@@ -18,6 +18,7 @@ public class MasinaFinal {
         this.electrica = electrica;
     }
 
+    // concrete Builder, construieste obiecttul de tip MasinaFinal si in returneaza
     public static class Builder implements BuilderAbstract2 {
         private String fabricant;
         private String model;
