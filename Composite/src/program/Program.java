@@ -7,9 +7,6 @@ import app.Masina;
 public class Program {
     static void main(String[] args) {
 
-        // container colectie
-        INod container = new Colectie("Power Cars");
-
         // colectie1
         INod colectie1 = new Colectie ("deluxe RO");
 
@@ -23,17 +20,17 @@ public class Program {
 
 
         // operatii
-        container.adaugaNod(colectie1);
         colectie1.adaugaNod(masina1);
         colectie1.adaugaNod(masina2);
         colectie1.adaugaNod(masina3);
         colectie1.stergeNod(masina2);
 
-        colectie1.printeaza();
+         colectie1.printeaza();
+         masina1.printeaza();
 
-        System.out.println("Total cai putere colectia 1: " + colectie1.getCaiPutere());
-        System.out.println("Producator colectia 1: " + colectie1.getProducator());
-        System.out.println("Index 1 al colectiei 1: " + colectie1.getNod(1));
+         System.out.println("Total cai putere colectia 1: " + colectie1.getCaiPutere());
+         System.out.println("Producator colectia 1: " + colectie1.getProducator());
+         System.out.println("Index 1 al colectiei 1: " + colectie1.getNod(1));
 
     }
 }

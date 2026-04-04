@@ -42,7 +42,7 @@ public class Masina implements INod {
     }
     @Override
     public void printeaza() {
-        System.out.println("Masina: " + " producator: " + producator + " model: " + model + " caiPutere: " + caiPutere);
+        System.out.println("Producator: " + producator + " model: " + model + " caiPutere: " + caiPutere);
     }
 
     @Override
