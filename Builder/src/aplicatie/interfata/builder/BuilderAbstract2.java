@@ -4,7 +4,7 @@ import clase.MasinaFinal;
 
 public interface BuilderAbstract2 {
 
-     MasinaFinal build();   // va returna un obiect construit de tip MasinaFinal
+    MasinaFinal build();   // va returna un obiect construit de tip MasinaFinal
 
     BuilderAbstract2 setFabricant(String fabricant);
     BuilderAbstract2 setModel(String model);
