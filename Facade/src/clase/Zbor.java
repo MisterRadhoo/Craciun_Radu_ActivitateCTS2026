@@ -42,9 +42,9 @@ public class Zbor {
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder(" Zbor {");
-        sb.append("companie=").append(companie);
-        sb.append(", orasPlecare='").append(orasPlecare).append('\'');
-        sb.append(", orasDestinatie='").append(orasDestinatie).append('\'');
+        sb.append("companie =").append(companie);
+        sb.append(", orasPlecare ='").append(orasPlecare).append('\'');
+        sb.append(", orasDestinatie ='").append(orasDestinatie).append('\'');
         sb.append(" } ");
         return sb.toString();
     }
