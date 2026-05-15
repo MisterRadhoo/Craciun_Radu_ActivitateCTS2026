@@ -13,12 +13,12 @@ public class Zbor {
          this.companie = companie;
     }
 
-    // getter clasa CompanieAeriana
+
     public CompanieAeriana getCompanie() {
         return companie;
     }
 
-    // setter pentru clasa CompanieAeriana
+ 
     public void setCompanie(CompanieAeriana companie) {
         this.companie = companie;
     }
